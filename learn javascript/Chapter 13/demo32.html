@@ -6,18 +6,20 @@
     //Chap 13
 
 
-    var maths = 35;
-    var english = 35;
-    var urdu = 35;
+    var english = 70; 
+    var maths = 80;
+    var computerScience = 60 ;
+    var sindhi = 45;
+    var urdu =  40;
 
-    var totalScore = (maths + english + urdu) / 300 * 100;
+    var totalScore = (english + maths + computerScience + sindhi + urdu ) / 450 * 100;
 
-    var totalScoreToPass = 40;
+    var totalScoreToPass = 60;
 
     alert(totalScore);
     alert(totalScoreToPass);
 
-
+    //and 
     if(maths >= 33 && english >= 33 && urdu >=33 && totalScore >= totalScoreToPass) {
         alert("Congratulations! You have passed");
     }    

@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: rgba(50, 255, 150, 0.2);
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    border-top: 3px solid #0f0;
+    margin: auto;
+    background-color: rgba(215, 255, 234);
+    /* margin-top: 50px;
+ */
+    margin-bottom: -3px;
+    /* margin-top: 45px; */
+    z-index: 10;
+}
+
+footer input {
+    height: 50px;
+    width: 90%;
+    padding: 2%;
+    font-size: 20px;
+    /* overflow: auto; */
+
+}
+
+footer button {
+    background-color: #4CAF50;
+    /* Green */
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 7%;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.heading {
+    background: #4CAF50;
+    /* Green */
+    padding: 20px;
+    border-radius: 50px;
+}
+
+ol li {
+    text-transform: uppercase;
+    display: block;
+    min-height: 30px;
+    background: #eee;
+    margin-bottom: 5px;
+    overflow: auto;
+
+}
+
+ol .complete {
+    background: #4CAF50;
+    /* Green */
+
+
+}
+ol li span {
+    margin: 5px 0px 0px 20px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+ol li div {
+    float: right;
+}

@@ -1,29 +1,33 @@
 <html>
+
 <head>
 
-<script>
+    <script>
 
-    //Chap 21
-    //Changing case
+        //Chap 21
+        //Changing case
 
-    var cities = ["Karachi","Lahore","Islamabd","Hyderabad"];
+        var cities = ["Karachi", "Lahore", "Islamabd", "Hyderabad","Quetta","Faisalabad"];
+        // var cities = ['','','','','','','','','']
+        
+        var myCity = "FaiSAlabAd"
+        var my city = 'KaraHI';
+        
+        alert(myCity.toUpperCase());
+        alert(myCity.toLowerCase());
 
-    var myCity = "KarAchI"
-    //alert(myCity.toUpperCase());
-    //alert(myCity.toLowerCase());
 
-    for(var i=0;i< cities.length;i++){
-        //if(cities[i].toLowerCase() === myCity.toLowerCase()){
-        if(cities[i].toUpperCase() === myCity.toUpperCase()){    
-            alert("City Found");
+        for (var i = 0; i < cities.length; i++) {
+            if (cities[i] === myCity) {
+                alert("City Found");
+            }
         }
-    }
 
 
-</script>
-
+    </script>
 
 </head>
+
 <body>
 
 </body>

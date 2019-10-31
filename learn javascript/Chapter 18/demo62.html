@@ -1,38 +1,64 @@
 <html>
+
 <head>
 
-<script>
+    <script>
 
-    //Chap 18
-    //for loops
+        //Chap 18
+        //for loops
 
-    var num = 19;
+        var num = 19;
 
-    // initilization ; condition ; statement
-    /*
-    // optional
-    for(  ;   ;   ){
+        // initilization ; condition ; statement
+        /*
+        // optional
+        for(  ;   ;   ){
+    
+        }
+        */
 
-    }
-    */
+        var num = 7;
 
-    var num = 7;
 
-    for(var a = 1; a < 11; a++){
-        alert(num*a);
-    }
+        for (var a = 1; a < 11; a++) {
+            alert(num * a);
+        }
+        alert('loop no.1 ended'); //will end ?
 
-    /*alert(num+" * 1 = "+ (num*1));
-    alert(num+" * 2 = "+ (num*2));
-    alert(num+" * 3 = "+ (num*3));
-    alert(num+" * 4 = "+ (num*4));
-    alert(num+" * 5 = "+ (num*5));
-    alert(num+" * 6 = "+ (num*6));*/
+        for (var a = 1; a < 11; --a) {
+            alert(num * a);
+        }
+        alert('loop no.2 ended'); //will end ?
 
-</script>
+
+        for (var a = 1; a < 11; a++) {
+            alert(num * a);
+            a++;
+        }
+        alert('loop no.3 ended'); //will end ?
+
+
+        for (var a = 1; a < 11; a++) {
+            alert(num * a);
+            a--;
+            a = +2;
+        }
+        alert('loop no.4 ended'); //will end ?
+
+
+
+        /*alert(num+" * 1 = "+ (num*1));
+        alert(num+" * 2 = "+ (num*2));
+        alert(num+" * 3 = "+ (num*3));
+        alert(num+" * 4 = "+ (num*4));
+        alert(num+" * 5 = "+ (num*5));
+        alert(num+" * 6 = "+ (num*6));*/
+
+    </script>
 
 
 </head>
+
 <body>
 
 </body>
